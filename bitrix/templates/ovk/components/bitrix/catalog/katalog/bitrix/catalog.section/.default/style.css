@@ -1,0 +1,180 @@
+
+
+.katalog_tovary{
+	margin: 0px 0 30px 0;
+	padding: 5px 0px 5px 0px;
+	overflow: hidden;
+	line-height: 1.3;
+}
+
+
+.katalog_tovary .tovar{
+	width: 413px;
+	height: 320px;
+	float: left;
+	border: 1px solid #d9d9d9;
+	margin: 5px 0px 5px 0px;
+	padding: 20px 10px 0px 10px;
+}
+
+.katalog_tovary .tovar:nth-child(2n){
+	margin-left: 10px;
+}
+
+.katalog_tovary .tovar:hover{
+    box-shadow: 3px 3px 10px #999999;
+}
+
+
+.katalog_tovary .tovar .nazv {
+	margin: 0px 0px 0px 0px;
+	height: 50px;
+}
+
+.katalog_tovary .tovar .nazv a, .katalog_tovary .tovar .nazv a:hover{
+	color: #333333;
+	font-size: 17px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.katalog_tovary .tovar img{
+	float: left;
+	margin: 0px 10px 0px 0px;
+	width: 170px;
+	height: 136px;
+}
+
+
+.katalog_tovary .tovar .preview{
+	width: 230px;
+	float: left;
+	text-align: left;
+	font-size: 14px;
+}
+
+.katalog_tovary .tovar .preview .svoistva{
+	margin: 0px 0px 10px 0px;
+}
+
+.katalog_tovary .tovar .preview ul{
+	margin: 0px 0px 0px -20px;
+}
+
+
+.katalog_tovary .tovar .nalichie{
+	clear: left;
+	padding: 10px 0px 0px 0px;
+	font-size: 16px;
+	color: #a1a1a1;
+}
+
+
+.katalog_tovary .tovar .knopki{
+	clear: left;
+	overflow: hidden;
+	margin: 10px 0px 0px 0px;
+	font-size: 16px;
+}
+
+.katalog_tovary .tovar .cena{
+	float: left;
+    width: 115px;
+    height: 28px;
+    border: 1px solid #a1a1a1;
+    font-size: 18px;
+    text-align: center;
+    padding: 6px 0px 0px 0px;
+    /*font-weight: bold;*/
+}
+
+.katalog_tovary .tovar .cena strike {
+    position: absolute;
+    font-weight: normal;
+    color: #a1a1a1;
+    margin: -27px 0px 0px 0px;	
+	font-size: 14px;
+}
+
+.katalog_tovary .tovar .zakazat_tovar{
+	width: 100px;
+	height: 26px;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 8px 0px 0px 0px;
+	background:#fc5a0a;
+	color: #fbfbfb;
+	margin: 0px auto 0px auto;
+	cursor: pointer;
+	border: 1px solid #fc5a0a;
+	-webkit-transition: all 0.25s ease-out 0s;
+    -moz-transition: all 0.25s ease-out 0s;
+    -o-transition: all 0.25s ease-out 0s;
+    transition: all 0.25s ease-out 0s;
+}
+
+.katalog_tovary .tovar .zakazat_tovar:hover{
+	background: #fc5a0a;
+	border: 1px solid #fc5a0a;
+}
+
+.katalog_tovary .tovar .podrobnee{
+	float: right;
+	width: 115px;
+	height: 26px;
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 8px 0px 0px 0px;
+	background: #FFFFFF;
+	color: #332b21;
+	margin: 0px 0px 0px 0px;
+	cursor: pointer;
+	border: 1px solid #a1a1a1;
+	-webkit-transition: all 0.25s ease-out 0s;
+    -moz-transition: all 0.25s ease-out 0s;
+    -o-transition: all 0.25s ease-out 0s;
+    transition: all 0.25s ease-out 0s;
+}
+
+.katalog_tovary .tovar .podrobnee:hover{
+	color: #fc5a0a;
+}
+
+
+	@media screen and (max-width: 900px) {
+		.katalog_tovary .tovar{
+			float: none;
+		}
+		.katalog_tovary .tovar:nth-child(2n){
+			margin-left: 0px;
+		}
+	}
+
+	
+	@media screen and (max-width: 435px) {
+		.katalog_tovary .tovar{
+			width: 93%;
+			height: auto;
+			margin: 0px 0px 20px 0px;
+			padding: 15px 2% 15px 2%;
+		}
+		.katalog_tovary .tovar img{
+			margin: 0px 2% 0px 0px;
+			width: 48%;
+			height: auto;
+			max-height: 170px;
+			max-width: 170px;
+		}
+		.katalog_tovary .tovar .preview{
+			width: 50%;
+		}
+		.katalog_tovary .tovar .zakazat_tovar{
+			clear: left;
+			margin: 45px 0px 0px 0px;
+			width: 115px;
+		}
+		
+	}

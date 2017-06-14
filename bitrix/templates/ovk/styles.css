@@ -1,0 +1,208 @@
+
+
+
+
+
+.glav_uslugi_usluga{ /* по нормально было так .glav_uslugi .usluga, но для рекдактора сделали так .glav_uslugi_usluga */
+	float: left;
+	width: 45%;
+	margin: 30px 2% 30px 3%;
+	background: #272d33;
+	color: #FFFFFF;	
+	height: 190px;
+}	
+
+.glav_uslugi_usluga a{
+	color: #FFFFFF;	
+	text-decoration: none;
+}
+	
+.glav_uslugi_usluga > div {
+	position: absolute;
+	z-index: 2;
+	margin: -20px 0px 0px -20px;
+	width: 60px;
+	height: 60px;
+	padding: 20px 20px 20px 20px;
+	background: #fc5a0a;
+	border-radius: 50px;
+}
+
+.glav_uslugi_usluga > div img{
+	width: 100%;
+}
+	
+.glav_uslugi_usluga h6{
+	font-size: 24px;
+	display: inline-block;
+	/*width: 200px;*/
+	margin: 20px 0px 20px 100px;	
+	padding: 0px 0px 10px 0px;
+	border-bottom: 2px solid #fc5a0a;
+	font-weight: normal;
+}
+	
+.glav_uslugi_usluga p{
+	font-size: 16px;
+	margin: 0px 10px 10px 100px;
+}	
+	
+	
+	
+	
+	@media screen and (max-width: 1220px) { 
+		.glav_uslugi_usluga {
+			height: 220px;
+		}
+	}
+	@media screen and (max-width: 1000px) { 
+		.glav_uslugi_usluga {
+			height: 280px;
+		}
+		.glav_uslugi_usluga h6{
+			font-size: 20px;
+		}
+	}
+	@media screen and (max-width: 760px) { 
+		.glav_uslugi_usluga {
+			height: auto;
+			width: 92%;
+			margin: 15px 3% 20px 5%;
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+ 
+.glav_kompaniya_kolonka{ /* по нормально было так .glav_kompaniya_kolonka, но для рекдактора сделали так .glav_kompaniya_kolonka */
+	float: left;
+	width: 47.5%;
+	margin: 0px 0% 0px 0%;
+}	
+	
+.glav_kompaniya_kolonka:nth-child(1){
+	margin: 0px 2.5% 0px 0%;
+}	
+
+.glav_kompaniya_kolonka:nth-child(2){
+	margin: 0px 0% 0px 2.5%;
+}
+	
+.glav_kompaniya_kolonka img{
+	width: 100%;
+}
+	
+.glav_kompaniya_kolonka h3{
+	padding: 0px;
+	margin: 0px 0px 20px 0px;
+	color: #fc5a0a;
+	font-size: 24px;
+	font-weight: normal;
+}	
+	
+.glav_kompaniya_kolonka > div{
+	padding: 30px 30px 30px 30px;
+	margin: 30px 0px 0px 0px;
+	background: #f1f1f1;
+	font-size: 20px;
+}	
+	
+.glav_kompaniya_kolonka > div h3{
+	padding: 0px;
+	margin: 0px 0px 30px 0px;
+	color: #333333;
+	font-size: 24px;
+	font-weight: normal;
+	text-transform: uppercase;
+}	
+	
+.glav_kompaniya_kolonka > div ul{
+	padding: 0px;
+	margin: 0px 0px 0px 0px;
+	list-style: none;
+}	
+	
+.glav_kompaniya_kolonka > div li{
+	background: url('/bitrix/templates/ovk/files/galka.png') no-repeat 0px 0px;
+	padding: 0px 0px 20px 50px;
+	margin: 0px 0px 0px 0px;
+	list-style: none;
+}		
+	
+	@media screen and (max-width: 760px) { 
+		.glav_kompaniya_kolonka > div{
+			font-size: 18px;
+		}
+	}
+
+	@media screen and (max-width: 600px) { 
+		.glav_kompaniya_kolonka{
+			width: 100%;
+			margin: 0px 0% 0px 0% !important;
+		}
+	}	
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+/* контент в вижде 2х колонок для внутренних страниц сайта*/
+	
+.vnutr_kolonki {
+	margin: 0px 0px 50px 0px;
+	overflow: hidden;
+	border-bottom: 1px solid #DFDFDF;
+}
+
+.vnutr_kolonka{ 
+	float: left;
+	width: 48.5%;
+	margin: 0px 0% 0px 0%;
+}	
+	
+.vnutr_kolonka:nth-child(1){
+	margin: 0px 1.5% 0px 0%;
+}	
+
+.vnutr_kolonka:nth-child(2){
+	margin: 0px 0% 0px 1.5%;
+}
+	
+.vnutr_kolonka img{
+	width: 100%;
+}
+	
+.vnutr_kolonka > div{
+	padding: 20px 20px 20px 20px;
+	margin: 0px 0px 0px 0px;
+	background: #f1f1f1;
+}	
+		
+	
+	@media screen and (max-width: 760px) { 
+		.vnutr_kolonka{
+			width: 100%;
+			margin: 0px 0% 0px 0% !important;
+		}
+	}	
+	
+	
+	
+	
+	

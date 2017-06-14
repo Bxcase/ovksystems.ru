@@ -1,0 +1,58 @@
+
+.glav_otzyvy {
+	
+}
+
+.glav_otzyvy  a  {
+	color: #333333;
+	text-decoration: none;
+}
+
+.glav_otzyvy  .element  {
+	margin: 0px 0px 0px 0px;
+}
+
+
+.glav_otzyvy  .element  p{
+
+}
+
+
+.glav_otzyvy .blueimp {
+	overflow: hidden;
+	padding: 5px 0px 5px 0px;
+}
+
+.glav_otzyvy   img{
+	float: left;
+	margin: 0px 1% 0px 1%;
+    /*border: 1px solid #e9eaec;*/
+    box-shadow: 1px 1px 5px #CCCCCC;
+    width: 31%;
+}
+
+
+.glav_otzyvy   .vse{
+	width: 120px;
+    margin: 30px 0px 0px auto;
+    padding: 5px 0px 0px 0px;
+    color: #333333;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid #a1a1a1;
+    text-decoration: none;
+    height: 25px;
+    text-align: center;
+	-webkit-transition: all 0.25s ease-out 0s;
+    -moz-transition: all 0.25s ease-out 0s;
+    -o-transition: all 0.25s ease-out 0s;
+    transition: all 0.25s ease-out 0s;
+}
+
+.glav_otzyvy  .vse:hover{
+    color: #fc5a0a;
+}
+
+
+
+	

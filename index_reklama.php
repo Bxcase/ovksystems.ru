@@ -1,0 +1,1 @@
+<?if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();?> &nbsp;<a href="/katalog/pechi-itprom-itprom/"><img alt="банер.GIF" src="/upload/medialibrary/082/baner.gif" title="банер.GIF" height="339" width="1024"></a>

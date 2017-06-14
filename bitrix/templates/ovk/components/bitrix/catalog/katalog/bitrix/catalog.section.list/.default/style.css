@@ -1,0 +1,54 @@
+
+.katalog_razdely {
+	margin: 30px 0px 30px 0px;
+	padding: 20px 0px 20px 0px;
+	overflow: hidden;
+	background: #f3f4f8;
+	text-align: center;
+}
+
+
+.katalog_razdely .razdel{
+	vertical-align: top;
+    background: #ffffff;
+    outline: 1px solid #e9eaec;
+    width: 190px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    display: inline-block;
+    padding: 0px 0px 0px 0px;
+	-webkit-transition: all 0.25s ease-out 0s;
+    -moz-transition: all 0.25s ease-out 0s;
+    -o-transition: all 0.25s ease-out 0s;
+    transition: all 0.25s ease-out 0s;
+}
+
+.katalog_razdely .razdel:hover{
+	box-shadow: 3px 3px 10px #999999;
+}
+
+
+
+.katalog_razdely .razdel img{
+	width: 100%;
+	margin: 0px 0px 10px 0px;
+}
+
+
+.katalog_razdely .razdel .nazv{
+    background: #272d33;
+    height: 40px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #f5f5f5;
+    padding-top: 17px;
+	line-height: 1;
+	-webkit-transition: all 0.25s ease-out 0s;
+    -moz-transition: all 0.25s ease-out 0s;
+    -o-transition: all 0.25s ease-out 0s;
+    transition: all 0.25s ease-out 0s;
+}
+
+.katalog_razdely .razdel:hover .nazv{
+	background: #fc5a0a;
+}

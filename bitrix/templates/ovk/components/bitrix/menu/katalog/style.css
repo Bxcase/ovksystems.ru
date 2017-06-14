@@ -1,0 +1,112 @@
+
+.menu_katalog {
+	
+}
+
+
+
+.menu_katalog .punkt{
+	border-top: 1px solid #5f5b5b;
+	background: #272d33;
+}
+
+
+.menu_katalog .punkt:nth-child(1){
+	border-top: 0;
+}
+
+.menu_katalog .punkt > a{
+	text-decoration: none;
+}
+
+.menu_katalog .punkt > a > div{
+	margin: 0px 0px 0px 0px;
+    padding: 15px 10px 15px 20px;
+    font-size: 19px;
+    color: #f5f5f5;
+	-webkit-transition: all 0.25s ease-out 0s;
+    -moz-transition: all 0.25s ease-out 0s;
+    -o-transition: all 0.25s ease-out 0s;
+    transition: all 0.25s ease-out 0s;
+}
+
+
+.menu_katalog .punkt > a > div.aktiv, .menu_katalog .punkt:hover > a > div{
+	background: #fc5a0a;
+}
+
+
+.menu_katalog .punkt > a > div div{
+	background: url(/bitrix/templates/ovk/files/strelka2.png) no-repeat;
+    background-size: auto 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px 0px 0px 15px;
+    width: 10px;
+    height: 11px;
+}
+
+.menu_katalog .punkt > a > div div.aktiv{
+    background: url(/bitrix/templates/ovk/files/strelka2.png) no-repeat;
+    background-size: auto 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0px 0px 20px;
+    width: 10px;
+    height: 11px;
+	-moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+
+
+
+
+
+
+/*.menu_katalog .punkt:hover  {
+	display: block;
+}*/
+
+.menu_katalog .podmenu{
+	/*display: none;*/
+}
+	
+.menu_katalog  .podmenu{
+	border-left: 1px solid #d9d9d9;
+	border-right: 1px solid #d9d9d9;
+	background: #ffffff;
+	padding: 15px 0px 15px 0px;
+}
+
+.menu_katalog .podmenu > a{
+	color: #333333;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.menu_katalog  .podmenu > a > div{
+    margin: 0px 0px 0px 0px;
+	padding: 0px 10px 2px 30px;
+	-webkit-transition: all 0.25s ease-out 0s;
+    -moz-transition: all 0.25s ease-out 0s;
+    -o-transition: all 0.25s ease-out 0s;
+    transition: all 0.25s ease-out 0s;
+}
+
+
+
+.menu_katalog .podmenu > a:hover > div, .menu_katalog .podmenu > a > div.aktiv {
+	color: #fc5a0a;
+}
+
+.menu_katalog .podmenu > a > div > div {
+    display: inline-block;
+    margin: 0px 10px 0px 0px;
+    font-size: 25px;
+    font-weight: bold;
+}
+

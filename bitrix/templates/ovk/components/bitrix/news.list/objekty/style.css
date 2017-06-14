@@ -1,0 +1,61 @@
+
+.glav_objekty {
+	font-size: 16px;
+}
+
+.glav_objekty  a  {
+	color: #333333;
+	text-decoration: none;
+}
+
+.glav_objekty  .element  {
+	margin: 0px 0px 30px 0px;
+	overflow: hidden;
+}
+
+
+.glav_objekty  .element  img{
+    margin: 0px 20px 0px 0px;
+    float: left;
+	width: 50%;
+	max-width: 250px;
+}
+
+.glav_objekty  .element  h6{
+	margin: 0px 0px 0px 0px;
+    color: #fc5a0a;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+.glav_objekty  .element  p{
+
+}
+
+
+.glav_objekty   .vse{
+	width: 120px;
+    margin: 30px 0px 0px auto;
+    padding: 5px 0px 0px 0px;
+    color: #333333;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid #a1a1a1;
+    text-decoration: none;
+    height: 25px;
+    text-align: center;
+	-webkit-transition: all 0.25s ease-out 0s;
+    -moz-transition: all 0.25s ease-out 0s;
+    -o-transition: all 0.25s ease-out 0s;
+    transition: all 0.25s ease-out 0s;
+}
+
+.glav_objekty  .vse:hover{
+    color: #fc5a0a;
+}
+
+
+
+	

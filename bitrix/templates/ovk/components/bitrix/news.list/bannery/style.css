@@ -1,0 +1,115 @@
+
+.glav_banner {
+	width: 100%;
+	height: 400px;
+}
+
+.glav_banner  .banner {
+	width: 100%;
+	height: 400px;
+	position: absolute;
+	z-index: 2;
+}
+
+.glav_banner  .banner .shirina{
+	max-width: 1200px;
+	height: 400px;
+	margin: 0px auto 0px auto;
+}
+
+.glav_banner  .banner  .opis{
+	float: right; /*чтобы отступ сверху не двигал бы вниз всего родителя*/
+	text-align: right;
+	margin: 220px 0px 0px 300px; /*отступ справа для адаптивности*/
+    padding: 30px 30px 30px 30px;
+    color: #FFFFFF;
+    font-size: 32px;
+	background: linear-gradient(left, rgba(39, 45, 51, 0.2), rgba(39, 45, 51, 1));
+    background: -moz-linear-gradient(left, rgba(39, 45, 51, 0.2), rgba(39, 45, 51, 1));
+    background: -o-linear-gradient(left, rgba(39, 45, 51, 0.2), rgba(39, 45, 51, 1));
+    background: -webkit-linear-gradient(left, rgba(39, 45, 51, 0.2), rgba(39, 45, 51, 1));
+    background: -ms-linear-gradient(left, rgba(39, 45, 51, 0.2), rgba(39, 45, 51, 1));
+	text-shadow: 1px 1px 2px #000000;
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3b86d', endColorstr='#f2d88e',GradientType=0 );*/
+}
+
+.glav_banner  .banner  .podrobnee{
+    display: inline-block;
+    margin: 15px 10px 0px 0px;
+    padding: 5px 10px 0px 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-transform: uppercase;
+    outline: 1px solid #a1a1a1;
+    text-decoration: none;
+    height: 25px;
+	-webkit-transition: all 0.25s ease-out 0s;
+    -moz-transition: all 0.25s ease-out 0s;
+    -o-transition: all 0.25s ease-out 0s;
+    transition: all 0.25s ease-out 0s;
+}
+
+.glav_banner  .banner  .podrobnee:hover{
+    color: #fc5a0a;
+}
+
+
+
+.glav_banner  .zakladki {
+    position: absolute;
+    z-index: 8;
+    margin: 370px 0px 0px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.glav_banner  .zakladka, .glav_banner  .zakladka_aktiv {
+    /* float: left; */
+    margin: 5px;
+    width: 14px;
+    height: 14px;
+    background: #f1f1f1;
+    cursor: pointer;
+    /* border: 1px solid #d1d1d1; */
+    border-radius: 7px;
+    display: inline-block;
+	-webkit-transition: all 0.25s ease-out 0s;
+    -moz-transition: all 0.25s ease-out 0s;
+    -o-transition: all 0.25s ease-out 0s;
+    transition: all 0.25s ease-out 0s;
+}
+
+.glav_banner  .zakladka:hover, .glav_banner  .zakladka_aktiv {
+	background: #fc5a0a;
+}
+/*.zakladka_aktiv:hover {
+	background: #E2611A;
+}*/
+
+	@media screen and (max-width: 1000px) { 
+		.glav_banner .banner .opis {
+			margin-top: 180px;
+		}
+	}
+	@media screen and (max-width: 800px) { 
+		.glav_banner .banner .opis {
+			margin-top: 130px;
+		}
+	}
+
+	@media screen and (max-width: 650px) { 
+		.glav_banner  {
+			background: url('/bitrix/templates/ovk/files/banner_fon.jpg') no-repeat center center;
+			background-size: cover;
+		}
+		.glav_banner  .zakladki  {
+			display: none;
+		}
+		.glav_banner  .banner  {
+			display: none !important;
+		}
+	}
+	
+	
+	
+	

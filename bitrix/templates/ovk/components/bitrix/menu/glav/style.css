@@ -1,0 +1,285 @@
+.menu_glav {
+	background: #272d33;
+}
+
+
+.menu_glav .menu_adapt {
+    display: none;
+    width: 55px;
+    height: 55px;
+    background: url(/bitrix/templates/ovk/files/adapt_menu.png) center center no-repeat;
+	background-color: #272d33;
+    cursor: pointer;
+	-webkit-transition: all 0.25s ease-out 0s;
+    -moz-transition: all 0.25s ease-out 0s;
+    -o-transition: all 0.25s ease-out 0s;
+    transition: all 0.25s ease-out 0s;
+}
+
+.menu_glav .menu_adapt:hover {
+	background-color: #fc5a0a;
+}
+
+.menu_glav .menu_adapt_zakryt {
+    width: 50px;
+    height: 50px;
+    margin: 0px 0px 10px auto;
+    display: none;
+    background: url(/bitrix/templates/ovk/files/adapt_zakryt.png) center center no-repeat;
+	background-color: #272d33;
+    cursor: pointer;
+	-webkit-transition: all 0.25s ease-out 0s;
+    -moz-transition: all 0.25s ease-out 0s;
+    -o-transition: all 0.25s ease-out 0s;
+    transition: all 0.25s ease-out 0s;
+}
+
+.menu_glav .menu_adapt_zakryt:hover {
+	background-color: #fc5a0a;
+}
+
+
+
+
+.menu_glav .shirina{
+	max-width: 1200px;
+	margin: 0px auto 0px auto;
+	overflow: hidden;
+}
+
+
+
+.menu_glav .punkt{
+	float: left;
+}
+
+/* первый пункт меню делаем шире */
+.menu_glav .shirina > div:nth-child(2){
+	width: 300px;
+}
+
+.menu_glav .punkt > a{
+	text-decoration: none;
+}
+
+.menu_glav .punkt > a > div {
+	padding: 20px 30px 0px 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #f5f5f5;
+    height: 45px;
+	-webkit-transition: all 0.25s ease-out 0s;
+    -moz-transition: all 0.25s ease-out 0s;
+    -o-transition: all 0.25s ease-out 0s;
+    transition: all 0.25s ease-out 0s;
+}
+
+/*стили для подстветки активных пунктов, первый пункт зажигаем автоматически*/
+.menu_glav .punkt > a > div.aktiv, .menu_glav .punkt:hover > a > div, .menu_glav .shirina > div:nth-child(2) > a > div{
+	background: #fc5a0a;
+}
+
+
+.menu_glav .punkt > a > div div {
+	display: none;
+}
+
+/*чтобы поместилась стрелка у первого пункта убираем паддинг справа*/
+.menu_glav .shirina > div:nth-child(2) > a > div {
+	padding-right: 0px;
+}
+
+
+/*у первого пункта показываем стрелку*/
+.menu_glav .shirina > div:nth-child(2) > a > div div {
+    background: url(/bitrix/templates/ovk/files/strelka.png) no-repeat;
+    background-size: auto 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px 0px 0px 15px;
+    width: 14px;
+    height: 14px;
+}
+
+
+/*у первого пункта при наведении поворачиваем стрелку*/
+.menu_glav .shirina > div:nth-child(2):hover > a > div div {
+	background: url(/bitrix/templates/ovk/files/strelka.png) no-repeat;
+    background-size: auto 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 5px 0px 10px;
+    width: 14px;
+    height: 14px;
+	-moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/*класс для активной стрелки, который применяем по ситуации в яваскрипте*/
+.menu_glav .shirina > div:nth-child(2) > a > div div.aktiv {
+	background: url(/bitrix/templates/ovk/files/strelka.png) no-repeat;
+    background-size: auto 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 5px 0px 10px;
+    width: 14px;
+    height: 14px;
+	-moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+	
+.menu_glav .razdelitel{
+	display: none;
+	float: left;
+    width: 1px;
+    height: 10px;
+    margin: 28px 0px 0px 0px;
+    background: #5f5b5b;
+}
+
+
+
+
+
+
+
+	
+.menu_glav  .podmenu{
+	display: none;
+	position: absolute;
+	z-index: 100;
+	width: 300px;
+	padding: 0px 0 0px 0;
+	background: #272d33;
+}
+
+/*всплывание подменю с плавностью сделано на яваскрипте*/
+/*.menu_glav .punkt:hover .podmenu {
+	display: block;
+}*/
+
+.menu_glav .podmenu_skryto_vsegda{ /*класс для запрета показа подменю, который применяем по ситуации в яваскрипте*/
+	display: none !important;
+}
+
+
+.menu_glav .podmenu a{
+	color: #f5f5f5;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.menu_glav .podmenu a > div{
+    margin: 10px 0px 10px 0px;
+    padding: 8px 20px 0px 0px;
+	height: 27px;
+	-webkit-transition: all 0.25s ease-out 0s;
+    -moz-transition: all 0.25s ease-out 0s;
+    -o-transition: all 0.25s ease-out 0s;
+    transition: all 0.25s ease-out 0s;
+}
+
+/*.menu_glav  .podmenu a:last-child > div{
+	margin-bottom: 0px;
+}*/
+
+/*активный пункт подменю*/
+.menu_glav .podmenu a:hover > div, .menu_glav 	.podmenu a > div.aktiv {
+	color: #fc5a0a;
+}
+
+.menu_glav  .podmenu a > div div{
+    background: #fc5a0a;
+    float: left;
+    margin: -8px 20px 0px 0px;
+    width: 7px;
+    height: 35px;
+}
+
+
+
+.menu_fixed {
+    position: fixed;
+    z-index: 100;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+
+	@media screen and (max-width: 1200px) { 
+		.menu_glav .shirina > div:nth-child(2) {
+			width: auto; /*ширина первого пункта теперь автоматическая, как и у всех остальных*/
+		}
+		.menu_glav .punkt > a > div {
+			font-size: 18px;
+			padding: 22px 20px 0px 20px;
+			height: 43px;
+		}
+		.menu_glav .shirina > div:nth-child(2) > a > div {
+			padding-right: 10px;
+		}
+		
+		.menu_glav  .podmenu{
+			width: auto;
+		}
+			
+	
+	}
+
+
+	@media screen and (max-width: 1000px) { 	
+		.menu_glav .menu_adapt{
+			display: block;
+		}
+		.menu_glav .menu_adapt_zakryt{
+			display: block;
+		}
+		.menu_glav .shirina{
+			/*display: none;*/
+			position: fixed;
+			z-index: 1000;
+			top: 0px;
+			opacity: 0;
+			left: -340px;
+			background: #272d33;
+			padding: 0px 10px 0px 10px;
+			margin: 0px 0px 0px 0px;
+			height: 100%;
+			width: 320px;
+			text-align: left;
+		}
+		.menu_glav .punkt {
+			float: none;
+		}
+		.menu_glav .punkt > a > div {
+			font-size: 18px;
+			padding: 12px 20px 0px 20px;
+			height: 33px;
+		}
+		.menu_glav  .podmenu{
+			width: 280px;
+			margin: 0px 0px 0px 40px;
+			background: #484d52;
+		}
+		.menu_glav .podmenu a > div {
+			margin: 0px 0px 0px 0px;
+			padding: 5px 20px 0px 0px;
+			height: 24px;
+		}		
+		.menu_glav .podmenu a > div div {
+			margin: 0px 20px 0px 0px;
+			width: 5px;
+			height: 20px;
+		}
+		
+	}
+

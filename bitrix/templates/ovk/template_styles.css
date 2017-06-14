@@ -1,0 +1,830 @@
+@font-face {
+	font-family: "MyriadPro";
+	src: url(/bitrix/templates/ovk/files/fonts/MyriadProRegular.woff) format('woff'), url(/bitrix/templates/ovk/files/fonts/MyriadProRegular.otf) format('opentype');
+}
+
+@font-face {
+	font-family: "MyriadPro";
+	src: url(/bitrix/templates/ovk/files/fonts/MyriadProBold.woff) format('woff'), url(/bitrix/templates/ovk/files/fonts/MyriadProBold.otf) format('opentype');
+	font-weight: bold;
+}
+ 
+@font-face {
+	font-family: "MyriadPro";
+	src: url(/bitrix/templates/ovk/files/fonts/MyriadProItalic.woff) format('woff'), url(/bitrix/templates/ovk/files/fonts/MyriadProItalic.otf) format('opentype');
+	font-style: italic;
+}
+
+
+
+
+html * { max-height:999999px; } /* disallow font boosting, -webkit-text-size-adjust: none - not worked */
+
+
+
+* { /* отключить стили bootstrap */
+	-webkit-box-sizing: content-box !important;
+    -moz-box-sizing: content-box !important;
+    box-sizing: content-box !important;
+}
+
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: MyriadPro;
+	color: #333333;
+	font-size: 16px;
+	background: #FFFFFF;
+	line-height: 1.3;
+}
+
+
+
+
+
+
+
+
+.verh1 {
+	background: #f1f1f1;
+}
+
+.verh1 .shirina{
+	max-width: 1200px;
+	margin: 0px auto 0px auto;
+	overflow: hidden;
+}
+
+
+.verh1 .poisk{
+	float: right;
+	width: 250px;
+	margin: 13px 0px 10px 0px;
+}
+
+.verh1 .poisk form{
+	margin: 0px;
+	padding: 0px;
+}
+
+.verh1 .poisk input{
+	background: #ffffff;
+	font-family: MyriadPro;
+	font-size: 14px;
+	color: #333333;
+	border: 1px solid #a1a1a1;
+	width: 213px;
+	height: 25px;
+	padding: 0px 5px 0px 30px;
+	margin: 0px 0px 0px 0px;
+}
+
+.verh1 .poisk img{
+	width: 15px;
+	position: absolute;
+	margin: 6px 0px 0px 8px;
+	cursor: pointer;
+}
+
+
+	@media screen and (max-width: 1220px) { 
+		.verh1 .shirina {
+			margin: 0px 10px 0px 10px;
+		}
+	}
+	@media screen and (max-width: 1100px) { 
+		.verh1 .poisk {
+			clear: left;
+			margin-top: -5px;
+		}
+	}
+	
+
+
+
+
+.verh2 {
+	background: #ffffff;
+}
+
+.verh2 .shirina{
+	max-width: 1200px;
+	margin: 0px auto 0px auto;
+	overflow: hidden;
+}
+
+.verh2 .logo{
+	float: left;
+	width: 500px;
+	height: 100px;
+	margin: 40px 0px 30px 0px;
+}
+
+.verh2 .logo img{
+	border: 0;
+	width: 100%;
+}
+   
+
+.verh2 .kontakty{
+    float: right;
+    width: 320px;
+    margin: 35px 0px 0px 0px;
+    font-size: 16px;
+	text-align: right;
+}
+
+.verh2 .kontakty img.tel{
+	float: left;
+	margin: 5px 0px 0px 0px;
+	width: 35px;
+}
+
+
+.verh2 .kontakty a{
+	color: #333333;
+	/*text-decoration: none;*/
+	-webkit-transition: all 0.25s ease-out 0s;
+    -moz-transition: all 0.25s ease-out 0s;
+    -o-transition: all 0.25s ease-out 0s;
+    transition: all 0.25s ease-out 0s;
+}
+
+.verh2 .kontakty a:hover{
+	color: #fc5a0a;
+}
+
+.verh2 .kontakty a.tel{
+	color: #fc5a0a;
+	text-decoration: none;
+	font-size: 36px;
+}
+
+.verh2 .kontakty div{
+	margin: 5px 0px 5px 0px;
+}
+
+
+.verh2 .kontakty .zakazat_zvonok{
+    position: absolute;
+    z-index: 2;
+    margin: 85px 0px 0px 5px;
+    padding: 5px 11px 0px 10px;
+    height: 25px;
+    text-transform: uppercase;
+    background: #FFFFFF;
+    font-size: 16px;
+    border: 1px solid #a1a1a1;
+    -webkit-transition: all 0.25s ease-out 0s;
+    -moz-transition: all 0.25s ease-out 0s;
+    -o-transition: all 0.25s ease-out 0s;
+    transition: all 0.25s ease-out 0s;
+    cursor: pointer;
+}
+
+
+.verh2 .kontakty .zakazat_zvonok:hover{
+	color: #fc5a0a;
+}
+
+
+.img_float_right {
+    float: right;
+    width: 300px;
+    margin: 0 0 10px 10px;
+}
+
+
+
+	@media screen and (max-width: 1220px) { 
+		.verh2 .shirina {
+			margin: 0px 10px 0px 10px;
+		}
+	}
+	@media screen and (max-width: 1000px) { 
+		.verh2 .logo {
+			width: 100%;
+			max-width: 370px;
+			margin: 40px 0px 20px 0px;
+		}
+		.verh2 .kontakty {
+			margin: 20px 0px 0px 0px;
+		}
+	}
+	@media screen and (max-width: 765px) { 
+		.verh2 .logo {
+			margin: 40px 0px 0px 0px;
+		}
+		.verh2 .kontakty {
+			clear: left;
+			margin: 0px 0px 15px 0px;
+		}
+		.verh2 .kontakty a.tel {
+			font-size: 34px;
+		}
+	}
+	
+	
+	
+	
+
+
+
+
+
+.kontent {
+	max-width: 1200px;
+	margin: 0px auto 0px auto;
+	overflow: hidden;
+	line-height: 1.4;
+}
+
+
+	@media screen and (max-width: 1220px) { 
+		.kontent {
+			margin: 0px 10px 0px 10px;
+		}
+	}
+	
+
+
+.kontent a{
+	color: #333333;
+	 -webkit-transition: all 0.25s ease-out 0s;
+    -moz-transition: all 0.25s ease-out 0s;
+    -o-transition: all 0.25s ease-out 0s;
+    transition: all 0.25s ease-out 0s;
+}
+
+.kontent a:hover{
+	color: #fc5a0a;
+}
+
+
+	
+h1, h2 {
+	margin: 30px 0px 30px 0px;
+	padding: 0px 0px 10px 0px;
+	text-transform: uppercase;
+	font-size: 24px;
+	border-bottom: 2px solid #fc5a0a;
+}
+	
+	
+	
+h3 {
+	margin: 30px 0px 30px 0px;
+	padding: 0px 0px 0px 0px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+}
+	
+	
+	
+	
+	
+	
+.glav_reklama {
+	margin: 0px auto 0px auto;
+	max-width: 1200px;
+}	
+	
+.glav_reklama img{
+	width: 100%;
+	margin: 50px 0px -20px 0px;
+}		
+	
+	
+	
+	
+.glav_uslugi {
+	margin: 30px 0px 0px 0px;
+	overflow: hidden;
+}
+
+/*далее услуги в файле styles.css - для отображения стилей в редакторе*/
+	
+	
+	
+	
+	
+	
+	
+.glav_kompaniya {
+	margin: 0px 0px 50px 0px;
+	overflow: hidden;
+}
+
+/*далее о компании в файле styles.css - для отображения стилей в редакторе*/
+
+
+
+
+	
+	
+
+
+
+
+
+.glav_raboty {
+	margin: 0px 0px 50px 0px;
+	overflow: hidden;
+}
+
+	
+	
+.glav_raboty .kolonka:nth-child(1){
+	float: left;
+	width: 47.5%;
+	margin: 0px 2.5% 0px 0%;
+}	
+
+.glav_raboty .kolonka:nth-child(2){
+	float: left;
+	width: 42.5%;
+	margin: 0px 0% 0px 2.5%;
+	padding: 30px 2.5% 30px 2.5%;
+	background: #f1f1f1;
+}
+	
+
+	
+.glav_raboty .kolonka h3{
+	padding: 0px;
+	margin: 0px 0px 30px 0px;
+	color: #fc5a0a;
+	font-size: 24px;
+	font-weight: normal;
+	text-transform: uppercase;
+}	
+	
+	
+
+	@media screen and (max-width: 600px) { 
+		.glav_raboty .kolonka:nth-child(1){
+			width: 100%;
+			margin: 0px 0% 30px 0%;
+		}
+		.glav_raboty .kolonka:nth-child(2){
+			width: 95%;
+			margin: 0px 0% 30px 0%;
+		}
+	}	
+	
+
+
+
+
+
+
+
+
+	
+.glav_vazhno {
+	background: url('/bitrix/templates/ovk/files/fon_vazhno.jpg') no-repeat center center;
+	background-size: cover;
+	padding: 40px 0px 40px 0px;
+	margin: 0px 0px 30px 0px;
+	font-size: 24px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}	
+	
+.glav_vazhno .shirina{
+	max-width: 1200px;
+	margin: 0px auto 0px auto;
+	overflow: hidden;
+}
+	
+	@media screen and (max-width: 1220px) { 
+		.glav_vazhno .shirina {
+			margin: 0px 10px 0px 10px;
+		}
+	}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+.glav_kontakty {
+	margin: 0px 0px 50px 0px;
+	overflow: hidden;
+}
+
+	
+	
+.glav_kontakty .kolonka:nth-child(1){
+	float: left;
+	width: 47.5%;
+	margin: 0px 2.5% 0px 0%;
+	font-size: 18px;
+}	
+
+.glav_kontakty .kolonka:nth-child(2){
+	float: left;
+	width: 47.5%;
+	margin: 30px 0% 0px 2.5%;
+}
+	
+.glav_kontakty .kolonka #map {
+	width: 100%;
+	height: 300px;
+}
+	
+
+	
+
+	@media screen and (max-width: 600px) { 
+		.glav_kontakty .kolonka:nth-child(1){
+			width: 100%;
+			margin: 0px 0% 20px 0%;
+		}
+		.glav_kontakty .kolonka:nth-child(2){
+			width: 100%;
+			margin: 0px 0% 0px 0%;
+		}
+	}		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+/* основной контент и колонка */
+.centr {
+	max-width: 1200px;
+	margin: 0px auto 0px auto;
+	overflow: hidden;
+}
+
+.centr .kontent{
+	font-size: 17px;
+}
+
+.centr .kontent_s_kolonkoi{
+	float: right;
+	width: 880px;
+	margin: 0px 0px 0px 0px;
+}
+
+
+
+
+.centr .kolonka_saita{
+	float: right;
+	width: 300px;
+	margin: 0px 20px 0px 0px;
+}
+
+
+.centr .kolonka_fiks{
+	position: fixed;
+    top: 0px;
+}
+
+	@media screen and (max-width: 1220px) { 
+		.centr .kontent{
+			float: none;
+			width: auto;
+			margin: 0px 10px 0px 10px;
+		}
+		.centr .kolonka_saita{
+			display: none;
+		}
+	}
+
+
+	
+	
+	
+	
+	
+
+
+
+
+/*таблицы*/
+
+table.tablica1 {
+	margin: 0px auto 0px auto;
+    /*width: 100%;*/
+    border-spacing: 0px;
+    word-break: break-all;
+	border: 7px solid #272d33;
+	color: #333333;
+	font-size: 17px;
+	border-collapse: collapse;
+}
+
+table.tablica1 td {
+    padding: 10px 10px 10px 10px;
+    background: #ffffff;
+	border: 4px solid #272d33;
+}
+
+table.tablica1 tr:nth-child(1) td {
+    background: #eae8e8;
+}
+
+table.tablica1 tr td:nth-child(1) {
+    background: #eae8e8;
+}
+
+
+
+
+
+
+
+
+
+table.tablica2 {
+	margin: 0px auto 0px auto;
+    /*width: 100%;*/
+    border-spacing: 0px;
+    word-break: break-all;
+	border: 7px solid #272d33;
+	color: #333333;
+	font-size: 17px;
+	border-collapse: collapse;
+}
+
+table.tablica2 td {
+    padding: 10px 10px 10px 10px;
+    background: #ffffff;
+	border: 4px solid #272d33;
+}
+
+/*table.tablica2 tr:nth-child(1) td {
+    background: #eae8e8;
+}*/
+
+table.tablica2 tr td:nth-child(1) {
+    background: #eae8e8;
+}
+
+
+
+
+
+
+/*контакты - карта*/
+.vnutr_karta {
+	width: 100%;
+	height: 500px;
+	margin: 50px 0px 50px 0px;
+}
+
+	@media screen and (max-width: 1220px) { 
+		.vnutr_karta{
+			height: 400px;
+		}
+	}
+	@media screen and (max-width: 750px) { 
+		.vnutr_karta{
+			height: 300px;
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+	
+	
+	
+	
+
+
+/*online forma*/
+.forma_fon {
+	font-family: MyriadPro;
+	position: fixed;
+	z-index: 100;
+	top: 0px;
+	left: 0px;
+	display: none;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+
+.forma {
+	position: absolute;
+	z-index: 101;
+	top: 250px;
+	left: 0px;
+	display: none;
+	width: 450px;
+	height: 470px;
+	background: #272d33;
+}
+
+
+
+.forma_close {
+	float: right;
+	width: 50px;
+    height: 50px;
+    margin: -15px 0px 10px 0px;
+    background: url(/bitrix/templates/ovk/files/adapt_zakryt.png) center center no-repeat;
+	background-color: #272d33;
+    cursor: pointer;
+	-webkit-transition: all 0.25s ease-out 0s;
+    -moz-transition: all 0.25s ease-out 0s;
+    -o-transition: all 0.25s ease-out 0s;
+    transition: all 0.25s ease-out 0s;
+}
+
+.forma_close:hover {
+	background-color: #fc5a0a;
+}
+
+.forma form {
+	margin: 30px 25px 0px 25px;
+	text-align: center;
+}
+
+.forma_nazv {
+	margin: 0px 0px 30px 0px;
+	text-align: center;
+	color: #fc5a0a;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+.forma input[type="text"] {
+    margin: 0px 0px 20px 0px;
+    width: 93%;
+    height: 40px;
+    padding: 0px 3% 0px 3%;
+    font-family: MyriadPro;
+    font-size: 18px;
+    color: #ffffff;
+    border: 0px solid #EF7F1A;
+    background: #272d33;
+    outline: 1px solid #e4e4e4;
+	
+}
+
+
+.forma textarea {
+    margin: 0px 0px 20px 0px;
+    width: 93%;
+    height: 80px;
+    padding: 10px 3% 10px 3%;
+    font-family: MyriadPro;
+    font-size: 18px;
+    color: #ffffff;
+    border: 0px solid #EF7F1A;
+    background: #272d33;
+    outline: 1px solid #e4e4e4;
+}
+
+.forma input#otpravit {
+    margin: 0px 0px 0px 0px;
+    width: 220px;
+    height: 45px;
+    padding: 0px 0px 0px 0px;
+    font-family: MyriadPro;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 0px solid #DFDFDF;
+    background: #fc5a0a;
+    box-shadow: none;
+}
+
+.forma_resultat {
+	position: absolute;
+	z-index: 101;
+	top: 250px;
+	left: 0px;
+	display: none;
+	width: 450px;
+	height: 470px;
+	color: #fc5a0a;
+	font-size: 24px;
+	text-align: center;
+	background: #272d33;
+	
+}
+
+.forma_resultat .forma_close {
+   margin: 15px 25px 0px 0px;
+}
+
+.error {
+	background: #ba0d0d !important;
+}
+
+	@media screen and (max-width: 450px) {
+		.forma {
+			width: 100%;
+		}
+		.forma_resultat {
+			width: 100%;
+		}
+		
+	}
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+.niz {
+	background: #272d33;
+	color: #d1d1d1;
+	font-size: 14px;
+}
+
+.niz a{
+	color: #d1d1d1;
+	text-decoration: none;
+}
+
+.niz .shirina{
+	max-width: 1200px;
+	margin: 0px auto 0px auto;
+	overflow: hidden;
+}
+
+
+.niz  .knopki{
+	float: left;
+    margin: 25px 20px 20px 0px;
+}
+
+
+.niz  .razrabotka{
+	float: right;
+    margin: 25px 0px 20px 20px;
+}
+
+.niz  .razrabotka a{
+	color: #777777;
+}
+
+
+.niz  .informaciya{
+	padding: 25px 20px 25px 20px;
+}
+
+
+	@media screen and (max-width: 1220px) { 
+		.niz .shirina {
+			margin: 0px 10px 0px 10px;
+		}
+	}
+	

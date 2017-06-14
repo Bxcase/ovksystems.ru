@@ -1,0 +1,263 @@
+.katalog_tovar {
+
+}
+
+
+
+.katalog_tovar h1{
+	font-size: 22px !important;
+}
+
+.katalog_tovar .kartochka {
+	overflow: hidden;
+	line-height: 1.3;
+	font-size: 17px;
+}
+
+
+.katalog_tovar .kartochka a{
+	color: #332b21 !important;
+}
+
+
+.katalog_tovar  .kartochka .foto{
+	width: 400px;
+	float: left;
+	margin: 0px 20px 20px 0px;
+	text-align: center;
+}
+
+
+.katalog_tovar  .kartochka .foto img{
+	width: 110px;
+	height: 88px;
+	margin: 0px 5px 0px 5px;
+	border: 1px solid #d9d9d9;
+	box-shadow: 1px 1px 3px #EEEEEE;
+}
+
+.katalog_tovar  .kartochka .foto a:nth-child(1) img{
+	width: 400px;
+	height: 320px;
+	margin: 0px 0px 20px 0px;
+}
+
+
+
+
+
+.katalog_tovar  .kartochka .preview{
+	float: right;
+	width: 400px;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0px 0px 0px;
+	/*border: 1px solid #d9d9d9;*/
+}
+
+
+.katalog_tovar  .kartochka .svoistva{
+	margin: 0px 0px 10px 0px;
+}
+
+
+
+
+
+
+.katalog_tovar  .kartochka .nalichie {
+    margin: 20px 0px 0px 0px;
+    color: #a1a1a1;
+}
+
+
+
+.katalog_tovar .kartochka .knopki {
+    overflow: hidden;
+    margin: 20px 0px 0px 0px;
+}
+
+.katalog_tovar .kartochka .cena {
+	float: left;
+    width: 115px;
+    height: 28px;
+    border: 1px solid #a1a1a1;
+    font-size: 18px;
+    text-align: center;
+    padding: 6px 0px 0px 0px;
+    /* font-weight: bold; */
+}
+
+.katalog_tovar .kartochka .cena strike {
+    position: absolute;
+    font-weight: normal;
+    color: #a1a1a1;
+    margin: -27px 0px 0px 0px;	
+	font-size: 14px;
+}
+
+.katalog_tovar .kartochka .zakazat_tovar {
+    float: left;
+	width: 100px;
+    height: 26px;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 8px 0px 0px 0px;
+    background: #fc5a0a;
+    color: #fbfbfb;
+    margin: 0px 0px 0px 20px;
+    cursor: pointer;
+    border: 1px solid #fc5a0a;
+	-webkit-transition: all 0.25s ease-out 0s;
+    -moz-transition: all 0.25s ease-out 0s;
+    -o-transition: all 0.25s ease-out 0s;
+    transition: all 0.25s ease-out 0s;
+}
+
+.katalog_tovar .kartochka .zakazat_tovar:hover {
+	background: #fc5a0a;
+	border: 1px solid #fc5a0a;
+}
+
+
+
+
+
+
+.katalog_tovar .podrobno h1, .katalog_tovar .podrobno h2, .katalog_tovar .podrobno h3, .katalog_tovar .podrobno h4, .katalog_tovar .podrobno h5, .katalog_tovar .podrobno h6,
+.katalog_tovar .zakladki_tovara h1, .katalog_tovar .zakladki_tovara h2, .katalog_tovar .zakladki_tovara h3, .katalog_tovar .zakladki_tovara h4, .katalog_tovar .zakladki_tovara h5, .katalog_tovar .zakladki_tovara h6 {
+    font-size: 22px !important;
+    text-align: left !important;
+    padding: 20px 0px 20px 0px !important;
+}
+
+
+
+
+.katalog_tovar .podrobno {
+	margin: 20px 0px 20px 0px;
+}
+
+
+
+
+.katalog_tovar .zakladki_tovara {
+	margin: 30px 0px 20px 0px;
+	border: 1px solid #d9d9d9;
+}
+
+.katalog_tovar .zakladki_tovara .zakladki{
+	background: #272d33;
+	overflow: hidden;
+}
+
+.katalog_tovar .zakladka_nazv {
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 12px 23px 10px 23px;
+	/*background: #d6d6d6;*/
+	font-size: 18px;
+	/*font-weight: bold;*/
+	cursor: pointer;
+	/*border: 1px solid #d6d6d6;
+	border-bottom: 0px;*/
+	color: #f5f5f5;
+	text-transform: uppercase;
+	-webkit-transition: all 0.25s ease-out 0s;
+    -moz-transition: all 0.25s ease-out 0s;
+    -o-transition: all 0.25s ease-out 0s;
+    transition: all 0.25s ease-out 0s;
+}
+
+.katalog_tovar .zakladka_nazv:hover, .katalog_tovar .zakladka_nazv_aktiv{
+	color: #fc5a0a;
+	background: #ffffff;
+}
+
+.katalog_tovar .zakladka_kontent {
+	/*display: none;*/
+	margin: 0px 0px 0px 0px;
+	padding: 20px 20px 20px 20px;
+	/*border: 1px solid #d6d6d6;*/
+}
+
+
+.katalog_tovar .files div{
+	margin: 0px 0px 10px 0px;
+}
+
+.katalog_tovar .files img.file {
+	vertical-align: middle;
+	margin: 0px 15px 0px 0px;
+	width: 35px;
+}
+
+
+
+.katalog_tovar .videos{
+	
+	text-align:center;
+}
+
+.katalog_tovar .videos div{
+	margin: 5px 8px;
+	display: inline-block;
+}
+
+
+
+.katalog_tovar .videos iframe{
+	width: 100%;
+	max-width: 400px;
+	height: 200px;
+}
+
+.katalog_tovar .nazad{
+	margin: 20px 0px 0px 0px;
+	text-align: right;
+}
+
+
+
+
+	@media screen and (max-width: 1220px) {
+		.katalog_tovar {
+			margin: 0px 10px 0px 10px;
+		}
+	}
+
+
+	
+
+	@media screen and (max-width: 900px) {
+		.katalog_tovar .kartochka .foto {
+			float: none;
+			margin: 0px 0px 20px 0px;
+		}
+		.katalog_tovar .kartochka .preview {
+			float: none;
+			width: 360px;
+		}
+	}
+	
+	
+	@media screen and (max-width: 450px) {
+		.katalog_tovar .kartochka .foto {
+			width: 99%;
+		}
+		.katalog_tovar  .kartochka .foto img{
+			width: 30%;
+			height: auto;
+			margin: 5px 1% 5px 1%;
+		}
+		.katalog_tovar  .kartochka .foto a:nth-child(1) img{
+			width: 100%;
+			height: auto;
+			margin: 0px;
+		}
+		.katalog_tovar .kartochka .preview {
+			width: 93%;
+			padding: 20px 3% 20px 3%;
+		}
+	}
+

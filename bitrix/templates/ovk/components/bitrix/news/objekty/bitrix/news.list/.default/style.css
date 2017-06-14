@@ -1,0 +1,56 @@
+.objekty {
+	
+}
+
+.objekty .objekt{
+	width: 49%;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.objekty  a  {
+	color: #333333;
+	text-decoration: none;
+}
+
+.objekty  .element  {
+	width: 95%;
+	margin: 0px 0px 30px 0px;
+	overflow: hidden;
+}
+
+
+.objekty  .element  img{
+    margin: 0px 20px 0px 0px;
+    float: left;
+	width: 50%;
+	max-width: 250px;
+}
+
+.objekty  .element  h6{
+	margin: 0px 0px 0px 0px;
+    color: #fc5a0a;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.objekty  .element  p{
+
+}
+
+
+@media screen and (max-width: 600px) {
+	.objekty .objekt{
+	margin: 10px auto;
+		width: 100%;
+		display: block;
+	}
+	.objekty .element img{
+		width: 100%;
+	}
+}
+
+
+
+
